@@ -18,10 +18,7 @@ objects:
     source:
       contextDir: java8
       git:
-        uri: git@github.com:OutThereLabs/s2i-scala.git
-      secrets:
-        - secret:
-            name: s2i-scala-deploy-key
+        uri: https://github.com/OutThereLabs/s2i-scala.git
     strategy:
       dockerStrategy: {}
       type: Docker
