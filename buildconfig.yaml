@@ -11,7 +11,7 @@ objects:
     output:
       to:
         kind: ImageStreamTag
-        name: scala:java8
+        name: s2i-scala:java8
     postCommit: {}
     resources: {}
     runPolicy: Serial
