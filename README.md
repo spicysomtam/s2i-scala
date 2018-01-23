@@ -7,7 +7,9 @@ This enables source to image for Scala applications.
 To install s2i Scala run:
 
 ```shell
-$ oc process -f https://raw.githubusercontent.com/spicysomtam/s2i-scala/master/buildconfig.yaml | oc create -f -
+$ oc process -f https://raw.githubusercontent.com/spicysomtam/s2i-scala/master/buildconfig.yaml \
+  | oc create -f -
+$ oc start-build s2i-scala
 ```
 
 You can also use s2i Scala for [local development](local-development.md).
