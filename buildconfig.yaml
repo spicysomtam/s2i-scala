@@ -32,7 +32,7 @@ objects:
 - apiVersion: v1
   kind: ImageStream
   metadata:
-    name: scala
+    name: s2i-scala
 parameters:
   - name: "GITHUB_WEBHOOK_SECRET"
     displayName: "GitHub Webhook Secret"
